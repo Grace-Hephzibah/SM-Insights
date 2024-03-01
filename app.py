@@ -5,6 +5,7 @@ import pandas as pd
 
 # Create an instance of the app 
 app = Dash('Cluster Dashboard')
+server = app.server
 
 # Load data using pandas
 df = pd.read_csv('csv_files/cluster_results.csv')
